@@ -1,0 +1,85 @@
+# Binários compilados
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe.stackdump
+
+# Arquivos de depuração
+*.dSYM/
+*.dSYM.zip
+*.gcda
+*.gcno
+*.gcov
+*.gch
+*.pdb
+*.ilk
+*.idb
+
+# Arquivos temporários
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+*.cache
+*.log
+-p/
+.cache/
+.opencode/
+
+# Diretórios de build
+build/
+bin/
+obj/
+Debug/
+Release/
+.vscode/
+.idea/
+*.code-workspace
+third_party/
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+*.local
+
+# Arquivos de projeto
+*.cbp
+*.depend
+*.layout
+*.kdev4
+*.user
+*.creator
+*.files
+*.includes
+*.config
+*.cflags
+*.cxxflags
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+
+# Arquivos de backup do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos específicos de compilação
+core
+core.*
+vgcore.*
+valgrind.out

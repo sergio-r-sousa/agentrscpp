@@ -1,0 +1,16 @@
+kind: agent
+llm:
+  provider: open_ai
+  model: openai/gpt-oss-20b
+system: You are a local Rust assistant.
+memory:
+  type: vector
+tools:
+  - type: calculator
+  - type: file_read
+    root: .
+  - type: file_write
+    root: .
+loop_strategy:
+  type: plan_and_execute
+  max_steps: 6
