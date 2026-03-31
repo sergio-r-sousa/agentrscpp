@@ -38,6 +38,7 @@
 
 # Diretórios de build
 build/
+build-debug/
 bin/
 obj/
 Debug/
@@ -70,7 +71,6 @@ third_party/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 CMakeUserPresets.json
 
 # Arquivos de backup do sistema
